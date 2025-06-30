@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 **Executive Summary**
+## **Executive Summary**
 
 **You Lie You Drink** is a psychology-powered team building game designed to transform corporate team dynamics through scientifically-backed interactive experiences. This PRD defines the MVP requirements for a web-based multiplayer application targeting the $4.7B corporate team building market.
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 **Problem Statement**
+## **Problem Statement**
 
 ### **Market Problem**
 The corporate team building industry, valued at **$4.7 billion annually**, suffers from widespread dissatisfaction:
@@ -74,7 +74,7 @@ Create a **psychology-based digital solution** that:
 
 ---
 
-## 🎮 **Product Vision & Strategy**
+## **Product Vision & Strategy**
 
 ### **Vision Statement**
 "Transform corporate team building from obligation to anticipation through psychology-powered digital experiences that create lasting improvements in team dynamics."
@@ -91,7 +91,7 @@ Provide corporate teams with scientifically-backed, engaging, and measurable tea
 
 ---
 
-## 👥 **Target Users & Personas**
+## **Target Users & Personas**
 
 ### **Primary Persona: Corporate HR Director**
 **Background**: Sarah Chen, 38, HR Director at 4,500-person tech company
@@ -147,7 +147,7 @@ Provide corporate teams with scientifically-backed, engaging, and measurable tea
 
 ---
 
-## 🔬 **Market Analysis**
+## **Market Analysis**
 
 ### **Total Addressable Market (TAM)**
 - **Global Corporate Training Market**: $402.5 billion (2025)
@@ -191,7 +191,7 @@ Provide corporate teams with scientifically-backed, engaging, and measurable tea
 
 ---
 
-## ⚙️ **Product Requirements**
+## **Product Requirements**
 
 ### **Functional Requirements**
 
@@ -252,7 +252,7 @@ Provide corporate teams with scientifically-backed, engaging, and measurable tea
 
 ---
 
-## 🎯 **Success Metrics & KPIs**
+## **Success Metrics & KPIs**
 
 ### **Product Metrics**
 
@@ -290,7 +290,7 @@ Provide corporate teams with scientifically-backed, engaging, and measurable tea
 
 ---
 
-## 🛠️ **Technical Specifications**
+## **Technical Specifications**
 
 ### **Technology Stack**
 
@@ -397,14 +397,14 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 🚀 **Implementation Roadmap**
+## **Implementation Roadmap**
 
 ### **Phase 1: MVP Foundation (Weeks 1-6) - July-August 2025**
 #### **Weeks 1-2: Core Infrastructure & Research**
 - [ ] Professional development environment setup with CI/CD pipeline
 - [ ] Complete user research validation with 10+ corporate teams
 - [ ] Landing page with corporate-focused conversion optimization (A/B tested)
-- [ ] Room creation and joining functionality with 4-letter codes
+- [ ] Room creation, sharing and joining functionality with 4-letter codes
 
 #### **Weeks 3-4: Core Game Mechanics**
 - [ ] Implement 7 psychological rounds with scientifically-backed mechanics
@@ -458,7 +458,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 🔍 **Risk Assessment & Mitigation**
+## **Risk Assessment & Mitigation**
 
 ### **Technical Risks**
 
@@ -498,7 +498,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 📊 **Resource Requirements**
+## **Resource Requirements**
 
 ### **Development Team & Resource Requirements**
 
@@ -536,7 +536,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 📋 **Acceptance Criteria & Definition of Done**
+## **Acceptance Criteria & Definition of Done**
 
 ### **MVP Launch Criteria**
 - [ ] All 7 psychological rounds implemented and tested
@@ -574,7 +574,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 📞 **Stakeholder Communication**
+## **Stakeholder Communication**
 
 ### **Weekly Updates**
 - **Development Progress**: GitHub project board with milestone tracking
@@ -596,7 +596,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 ---
 
-## 📄 **Appendices**
+## **Appendices**
 
 ### **Appendix A: Psychology Research Citations**
 - Zeigarnik, B. (1927). "On finished and unfinished tasks"
@@ -631,7 +631,7 @@ GET  /api/psychology-insights     // Get team analysis
 
 *This PRD represents a comprehensive, research-validated approach to psychology-powered team building software, combining academic research, market analysis, AI-assisted development, and technical excellence to create measurable value for corporate teams worldwide.*
 
-## **📊 Development Success Tracking**
+## ** Development Success Tracking**
 
 ### **Weekly Metrics (Starting July 1, 2025)**
 - **Code Commits**: Daily progress tracking on GitHub

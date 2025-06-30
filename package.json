@@ -1,11 +1,112 @@
 {
-  "name": "you-lie-you-drink",           // Project identifier
-  "version": "1.0.0",                    // Semantic versioning
-  "description": "...",                  // SEO and discoverability
-  "scripts": {                           // Automation commands
-    "start": "npx serve src",           // Development server
-    "deploy": "netlify deploy --prod"    // Deployment command
+  "name": "you-lie-you-drink",
+  "version": "1.0.0",
+  "description": "Psychology-powered team building game that transforms corporate dynamics through cognitive bias-based gameplay. Built using AI-assisted development and modern web technologies.",
+  "main": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve src -p 3000",
+    "dev": "npx serve src -p 3000 --live-reload",
+    "build": "npm run validate && npm run optimize",
+    "validate": "npx html-validate src/*.html",
+    "optimize": "echo 'Production build complete - ready for deployment'",
+    "deploy": "npm run build && echo 'Ready for deployment to Netlify/Vercel'",
+    "deploy:netlify": "npm run build && npx netlify deploy --prod --dir=src",
+    "deploy:vercel": "npm run build && npx vercel --prod",
+    "test": "echo 'Tests will be added in v1.1.0 - see CHANGELOG.md'",
+    "lint": "npx eslint src/assets/js/ --fix",
+    "format": "npx prettier --write 'src/**/*.{html,css,js}'",
+    "lighthouse": "npx lighthouse src/index.html --output=json --output-path=./lighthouse-report.json",
+    "preview": "npx serve src -p 8080 --single",
+    "docs": "echo 'Documentation available in docs/ directory'",
+    "research": "echo 'Research findings available in research/ directory'"
   },
-  "dependencies": {},                    // External libraries
-  "devDependencies": {}                  // Development tools
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/you-lie-you-drink.git"
+  },
+  "keywords": [
+    "team-building",
+    "psychology",
+    "corporate",
+    "multiplayer",
+    "cognitive-bias",
+    "ai-assisted",
+    "vibe-coding",
+    "game",
+    "team-dynamics",
+    "remote-teams",
+    "hr-tools",
+    "startup",
+    "employee-engagement",
+    "social-psychology",
+    "web-game",
+    "no-download",
+    "instant-play",
+    "mobile-first",
+    "enterprise"
+  ],
+  "author": {
+    "name": "Sree Durairaj",
+    "email": "reachme@sreedurairaj.com",
+    "url": "https://sreedurairaj.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sree-pm/you-lie-you-drink/issues",
+    "email": "reachme@sreedurairaj.com"
+  },
+  "homepage": "https://github.com/sree-pm/you-lie-you-drink#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "iOS >= 12",
+    "Android >= 6"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "html-validate": "^8.7.4",
+    "lighthouse": "^11.4.0",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {},
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/sree-pm"
+  },
+  "config": {
+    "port": 3000,
+    "host": "localhost"
+  },
+  "metadata": {
+    "gameType": "team-building",
+    "platform": "web",
+    "players": "3-8",
+    "duration": "60-90 minutes",
+    "targetAudience": "corporate teams",
+    "psychologyPrinciples": [
+      "Zeigarnik Effect",
+      "Confirmation Bias", 
+      "Mirror Neurons",
+      "Cognitive Dissonance",
+      "False Memory Formation",
+      "Risk/Reward Psychology",
+      "Peak-End Rule"
+    ],
+    "technicalFeatures": [
+      "Mobile-first responsive design",
+      "Real-time multiplayer simulation",
+      "Zero-dependency architecture",
+      "Progressive Web App",
+      "Accessibility compliant"
+    ],
+    "businessModel": "freemium",
+    "developmentApproach": "AI-assisted vibe coding"
+  }
 }

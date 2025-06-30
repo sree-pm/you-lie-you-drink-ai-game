@@ -1,5 +1,361 @@
-node_modules/        # Dependencies (too large, regenerated)
-.env                 # Secret keys (API keys, database passwords)
-dist/                # Built files (generated, not source)
-.DS_Store           # Mac system files
-*.log               # Log files
+# You Lie You Drink - .gitignore
+# Professional web development gitignore with security focus
+
+# ==========================================
+# SECURITY & SENSITIVE DATA (CRITICAL!)
+# ==========================================
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# API keys & configuration files
+config/secrets.json
+config/api-keys.json
+secrets/
+private/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database credentials
+database.json
+db-config.json
+
+# Authentication & session files
+auth-config.json
+session-secrets.json
+
+# ==========================================
+# NODE.JS & PACKAGE MANAGEMENT
+# ==========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package lock files (keep one, ignore others)
+# Keeping package-lock.json for npm
+yarn.lock
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ==========================================
+# BUILD & DEPLOYMENT
+# ==========================================
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# Temporary build files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Deployment files
+.vercel
+.netlify
+.firebase/
+
+# Generated documentation
+docs-generated/
+api-docs/
+
+# ==========================================
+# DEVELOPMENT TOOLS & IDEs
+# ==========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# PROJECT-SPECIFIC FILES
+# ==========================================
+
+# Game data & user content
+user-data/
+game-sessions/
+player-logs/
+analytics-data/
+
+# Research & development files
+research/sensitive/
+research/private/
+interviews/recordings/
+survey-data/raw/
+
+# Design working files
+design-work/
+*.sketch
+*.fig
+*.xd
+*.psd
+*.ai
+
+# Video & media files (large)
+*.mp4
+*.mov
+*.avi
+*.mkv
+recordings/
+demos/large/
+
+# Backup files
+*.backup
+*.bak
+*.old
+backups/
+
+# ==========================================
+# TESTING & QUALITY ASSURANCE
+# ==========================================
+
+# Test reports
+test-results/
+coverage-reports/
+lighthouse-reports/
+*.lcov
+junit.xml
+
+# Screenshot testing
+screenshots/diff/
+visual-regression/
+
+# Performance testing
+performance-reports/
+*.har
+
+# ==========================================
+# LOGS & MONITORING
+# ==========================================
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime logs
+error.log
+access.log
+combined.log
+
+# Analytics & tracking
+analytics/
+tracking-data/
+user-behavior/
+
+# ==========================================
+# FUTURE BACKEND PREPARATION
+# ==========================================
+
+# Database files (when you add backend)
+*.sqlite
+*.sqlite3
+*.db
+
+# Redis dump files
+dump.rdb
+
+# MongoDB data
+data/db/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+k8s-secrets/
+
+# ==========================================
+# AI & MACHINE LEARNING (Future Features)
+# ==========================================
+
+# Python files (if you add AI features)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter notebooks (for research)
+.ipynb_checkpoints/
+*.ipynb
+
+# ML models
+models/
+*.model
+*.pkl
+*.h5
+
+# Data files
+datasets/
+training-data/
+
+# ==========================================
+# CERTIFICATES & SECURITY
+# ==========================================
+
+# SSL certificates
+*.crt
+*.cert
+*.ca-bundle
+*.p7b
+*.p7s
+*.spc
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# ==========================================
+# TEMPORARY & CACHE FILES
+# ==========================================
+
+# General temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Cache directories
+.cache/
+.sass-cache/
+.eslintcache
+.stylelintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# ==========================================
+# SPECIFIC TO YOUR GAME PROJECT
+# ==========================================
+
+# Psychology research (sensitive data)
+research/participant-data/
+research/confidential/
+research/interviews/raw/
+
+# Corporate client data
+corporate-scenarios/confidential/
+client-customizations/
+enterprise-configs/
+
+# Analytics & user behavior data
+analytics/user-sessions/
+heatmaps/
+user-recordings/
+
+# Development testing data
+test-game-sessions/
+debug-logs/
+performance-traces/
+
+# Marketing & business files
+marketing/analytics/
+business/financial/
+partnerships/contracts/
+
+# ==========================================
+# COMMENTS & LEARNING NOTES
+# ==========================================
+
+# This .gitignore teaches several important concepts:
+
+# 1. SECURITY: Never commit secrets, API keys, or sensitive data
+# 2. PERFORMANCE: Don't commit large files or dependencies
+# 3. COLLABORATION: Ignore personal IDE settings and OS files
+# 4. SCALABILITY: Prepared for future backend, AI, and enterprise features
+# 5. PROFESSIONALISM: Comprehensive coverage of all development scenarios
+
+# Remember: .gitignore prevents files from being tracked by Git
+# If you've already committed a file, you need to untrack it first:
+# git rm --cached filename
+# Then add it to .gitignore
+
+# For sensitive data that was accidentally committed:
+# Consider using tools like BFG Repo-Cleaner or git filter-branch
+# to remove it from Git history entirely

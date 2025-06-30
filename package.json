@@ -1,1 +1,11 @@
-
+{
+  "name": "you-lie-you-drink",           // Project identifier
+  "version": "1.0.0",                    // Semantic versioning
+  "description": "...",                  // SEO and discoverability
+  "scripts": {                           // Automation commands
+    "start": "npx serve src",           // Development server
+    "deploy": "netlify deploy --prod"    // Deployment command
+  },
+  "dependencies": {},                    // External libraries
+  "devDependencies": {}                  // Development tools
+}

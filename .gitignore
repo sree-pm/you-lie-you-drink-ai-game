@@ -1,1 +1,5 @@
-
+node_modules/        # Dependencies (too large, regenerated)
+.env                 # Secret keys (API keys, database passwords)
+dist/                # Built files (generated, not source)
+.DS_Store           # Mac system files
+*.log               # Log files

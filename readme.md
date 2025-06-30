@@ -286,10 +286,11 @@ Transform corporate team building from obligation to anticipation through psycho
 - 🧠 Applied Psychology & Behavioral Science
 
 ### **Let's Connect**
-- **Portfolio**: [your-portfolio.com]
-- **LinkedIn**: [your-linkedin-profile]
-- **Email**: [your-professional-email]
-- **Calendar**: [Schedule a product demo](your-calendly-link)
+- **Portfolio**: https://sreedurairaj.com
+- **LinkedIn**: https://www.linkedin.com/in/sreedurairaj
+- **Email**: reachme@sreedurairaj.com
+- **Github**: https://github.com/sree-pm
+- **Calendar**: https://cal.com/sree-durairaj/30min
 
 ---
 

@@ -1,5 +1,3 @@
-# you-lie-you-drink-ai-game
-The psychology-powered team building experience that creates legendary office stories - and builds trust like nothing else can
 # You Lie You Drink 🧠🎭
 
 > **The psychology-powered team building game that transforms corporate dynamics**
